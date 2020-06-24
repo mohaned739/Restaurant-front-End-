@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="menu_style.css">
+</head>
+<body>
+
+<div class="container-fluid" id="background1" >
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div id="navigator" style="background-color: #ED1C24;width: 7%;height: 10%;border-radius: 3%">
+            <center><a class="navbar-brand" href="index.html" style="color: #FF9F1C;padding: 8%;font-size: 14px">Honger House</a></center>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.google.com/maps" target="_blank">Branches</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Delivery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Offers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="reservation.html" tabindex="-1" aria-disabled="true">Reservation</a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: #FF9F1C;border-color:#ED1C24;background-color: #ED1C24">Search</button>
+            </form>
+        </div>
+    </nav>
+
+<form>
+<div class="container">
+<div class="cover">
+<figure class="front"></figure>
+<figure class="back">
+    <h2 style="color: white;margin-left: 2%"><u>Grilled / مشويات</u></h2>
+    <div class="row"  style="height: 33%;width: 100%">
+
+        <div class="col-sm-4" id="steak" data-text="Grilled Steak       Price:100EGP
+This Plate Comes With Fries, Soda(of your choice),Rice And Salad ">
+            <div class="check">
+            <input type="checkbox" value="Check" >
+            </div>
+            </div>
+
+        <div class="col-sm-4" id="sheesh" data-text="Sheesh Tawook    Price:70EGP
+This Plate Comes With Fries, Soda(of your choice), Rice, Salad And Tomya">
+            <div class="check">
+                <input type="checkbox" value="Check" >
+            </div>
+        </div>
+
+        <!--<div class="col-sm-4" id="Kofta" data-text="Kilo Kofta    Price : 140EGP-->
+<!--This Plate Comes With Fries, Soda(of your choice) And Salad">-->
+        <!--</div>-->
+    </div>
+
+        <h2 style="color: white;margin-left: 2%;margin-top: 3%"><u>Sea Food / ماكولات بحرية</u></h2>
+    <div class="row" style="height: 33%;width: 100%">
+        <div class="col-sm-4" id="samka_boory" data-text="Samka Boory       Price:60EGP
+This Plate Comes With Fries, Rice And Salad">
+            <div class="check">
+                <input type="checkbox" value="Check" >
+            </div>
+        </div>
+
+        <div class="col-sm-4" id="shrimp" data-text="Shrimp    Price : 150EGP
+This Plate Comes With Soda(of your choice), Rice, Salad">
+            <div class="check">
+                <input type="checkbox" value="Check" >
+            </div>
+        </div>
+
+    </div>
+
+
+</figure>
+
+</div>
+
+    <div class="row" id="sec_page" style="height: 60%;width: 90%;color: white">
+        <h2 style="margin-left: 50%;margin-top: 3%"><u>Dessert / الحلوى</u></h2>
+
+            <div class="col-sm-4" id="molten_cake" data-text="Molten Cake     Price :40EGP
+Very Delicious Plate And Highly Recommended">
+                <div class="check">
+                    <input type="checkbox" value="Check" >
+                </div>
+            </div>
+
+            <div class="col-sm-4" id="cheese_cake" data-text="Cheese Cake    Price :20EGP
+Flavours : Blue Berry, Strawberry, Caramel, Choclate">
+                <div class="check">
+                    <input type="checkbox" value="Check" >
+                </div>
+            </div>
+
+    </div>
+    <input type="submit" value="Order" style="background-color: #005cbf;border-radius: 50%;width: 20%" >
+</div>
+
+</form>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6">
+            <center><p style="font-size: 20px">About Us</p><br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>  Doloremque Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Blanditiis dolorum non perspiciatis quaerat.<br>     Debitis deserunt doloremque ea fugiat harum
+            </center>
+        </div>
+        <div id="Contacts" class="col-sm-6">
+            <center><p style="font-size: 20px">Contacts</p>
+                Email : mohaned.mohamed9999@gmail.com<br>
+                Phone : +201118107511</center>
+        </div>
+        <div id="social" class="col-sm-12">
+            <center><p style="font-size: 20px">Follow Us</p>
+                <a href="https://www.facebook.com/mohaned.mohamed.140" target="_blank"><img src="images/social%20media/fb_icon.png" style="width: 80px;height: 45px"></a>
+                <a href="https://www.instagram.com/mohanedmohamed99/" target="_blank"><img src="images/social%20media/insta_icon.png" style="width: 70px;height: 50px"></a>&nbsp;&nbsp;&nbsp;
+                <a href="https://twitter.com/mohanedmoha99" target="_blank"><img src="images/social%20media/twitter_icon.png" style="width: 45px;height: 45px"></a> </center>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="js/bootstrap.bundle.js"></script>
+
+
+</body>
+</html>

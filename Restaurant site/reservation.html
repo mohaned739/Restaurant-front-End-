@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservations</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="reservation_style.css">
+</head>
+<body>
+<div class="container-fluid" id="reser_bg">
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div id="navigator" style="background-color: #ED1C24">
+            <a class="navbar-brand" href="index.html" style="color: #FF9F1C;margin: auto">Honger House</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.google.com/maps" target="_blank">Branches</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Delivery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html" tabindex="-1" aria-disabled="true">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Offers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Reservation</a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: #FF9F1C;border-color:#ED1C24;background-color: #ED1C24">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+    <center><form id="reservations">
+        <h3 style="font-family:'Blackadder ITC';padding-top: 5%"><u>Reservation</u></h3>
+        <br><br>Name : <input type="text" required style="color: #eddb79"><br><br><br>
+        Phone : <input type="number" maxlength="11" required style="color: #eddb79"><br><br><br>
+        Email : <input type="email" required style="color: #eddb79"><br><br><br>
+        Chairs : <input type="number" required style="color: #eddb79"><br><br><br>
+        Branch : <select name="Branches" style="border: none; background-color: #a1680f;opacity: 0.7;color: #eddb79">
+        <option value="Nasr City">Nasr City</option>
+        <option value="5th Settlement">5th Settlement</option>
+        <option value="Zamalek">Zamalek</option>
+
+    </select><br>
+        <h4 style="font-family: 'Blackadder ITC';padding-top: 5%"><u>Date</u></h4>
+            <input type="datetime-local" required><br>
+        <input type="submit" value="Reserve" style="margin-top: 10%;color: #eddb79">
+
+    </form></center><br><br><br>
+
+
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6">
+            <center><p style="font-size: 20px">About Us</p><br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>  Doloremque Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Blanditiis dolorum non perspiciatis quaerat.<br>     Debitis deserunt doloremque ea fugiat harum
+            </center>
+        </div>
+        <div id="Contacts" class="col-sm-6">
+            <center><p style="font-size: 20px">Contacts</p>
+                Email : mohaned.mohamed9999@gmail.com<br>
+                Phone : +201118107511</center>
+        </div>
+        <div id="social" class="col-sm-12">
+            <center><p style="font-size: 20px">Follow Us</p>
+                <a href="https://www.facebook.com/mohaned.mohamed.140" target="_blank"><img src="images/social%20media/fb_icon.png" style="width: 80px;height: 45px"></a>
+                <a href="https://www.instagram.com/mohanedmohamed99/" target="_blank"><img src="images/social%20media/insta_icon.png" style="width: 70px;height: 50px"></a>&nbsp;&nbsp;&nbsp;
+                <a href="https://twitter.com/mohanedmoha99" target="_blank"><img src="images/social%20media/twitter_icon.png" style="width: 45px;height: 45px"></a> </center>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

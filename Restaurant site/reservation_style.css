@@ -1,0 +1,24 @@
+#reser_bg{
+    background-image: url("images/reservation.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+border-radius: 10%;
+}
+#reservations{
+    border-radius: 10%;
+    background: rgba(356, 356, 356, 0.6);
+    width: 40%;
+    margin: auto;
+    font-weight: bolder;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    color: #a1680f;
+}
+
+#reservations input{
+    border-radius: 10%;
+    background-color: #a1680f;
+    border:none;
+    opacity: 0.7;
+}

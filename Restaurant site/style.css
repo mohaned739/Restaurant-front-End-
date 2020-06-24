@@ -1,0 +1,36 @@
+#background{
+    background-image: url("images/background.jpg");
+    background-size: cover;
+}
+#navigator{
+    border-radius: 5px;
+}
+
+
+
+#offer1_img :hover{
+    transform: translateX(2%) ;
+}
+#offer1_des{
+    background: rgba(356,356,356,0.6);
+}
+#offer2_img :hover{
+    transform: translateX(-2%);
+}
+#offer2_des{
+    background: rgba(356,356,356,0.6);
+}
+
+#review1{
+    background: rgba(356,356,356,0.6);
+}
+
+#review2{
+    background: rgba(356,356,356,0.6);
+}
+#review3{
+    background: rgba(356,356,356,0.6);
+}
+h1{
+    font-family:"Bauhaus 93";
+}
